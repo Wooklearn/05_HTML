@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>폼 만들기</h1>
+<form>
+    <fieldset>
+        <legend>납품자 정보</legend>
+        <label>1. 납품자명 : </label><input type="text">
+        <br>
+        <label>2. email : </label><input type="email" placeholder="answer@naver.com"><input type="submit" value="전송">
+        <br>
+        <label>3. 홈페이지 : </label><input type="text" value="http://">
+    </fieldset>
+    <fieldset>
+        <legend>납품 정보</legend>
+        <li>상품명 : <input type="text"></li>
+        <li>납품수량 : <input type="text" placeholder="최소 100"></li>
+        <li>납품등급 : <input type="range"></li>
+        <li>기타사항 : <textarea name="안녕" id="안녕" rows="5" cols="25"></textarea>
+    </fieldset>
+    <br>
+    <input type="button" value="sendMessage">
+</form>
+<br>
+<hr>
+<h1>폼만들기2</h1>
+<form>
+    <label>
+        고객명 : <input type="text">
+        <br>
+        <br>
+        전화번호 : <input type="text">
+        <br>
+        <br>
+        E-mail : <input type="text">
+        <br>
+        <br>
+        피자선택 : <select name="" id="" >
+            <option value="">피자를선택하세요</option>
+        </select>
+        <fieldset>
+            <legend>피자사이즈</legend>
+            <label for="">
+                <input type="radio" name="radio"> Small
+                <br>
+                <br>
+                <input type="radio" name="radio"> Medium
+                <br>
+                <br>
+                <input type="radio" name="radio"> Large
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>토핑선택</legend>
+            <label for="">
+                <input type="checkbox"> 베이컨
+                <br>
+                <br>
+                <input type="checkbox"> 치즈
+                <br>
+                <br>
+                <input type="checkbox"> 양파
+                <br>
+                <br>
+                <input type="checkbox"> 버섯
+            </label>
+        </fieldset>
+        <br>
+        <label>
+            희망배송시간 : <input type="time">
+            <br><br>
+            배송시 요청사항 : <textarea name="안녕" id="안녕" rows="3" cols=""></textarea>
+        </label>
+        <br><br>
+        <input type="submit" value="주문하기">
+
+    </label>
+</form>
+<h1>회원가입</h1>
+<form>
+    <fieldset>
+        <legend>
+            필수입력사항
+        </legend>
+    </fieldset>
+</form>
+
+
+</body>
+</html>
